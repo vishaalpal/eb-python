@@ -1,2 +1,2 @@
 # eb-python:
-Bare-minumum application for Elastic Beanstalk Python solution stack.
+Bare-minumum application for AWS Elastic Beanstalk Python solution stack.
