@@ -38,94 +38,44 @@ welcome = """
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>HelpDesk Tips n Tricks</title>
   <style>
+
   body {
     color: #FFFACD;
     background-color: #A52A2A;
     font-family: Calibri;
-    font-size:10px;
+    font-size: 15px;
     -moz-transition-property: text-shadow;
     -moz-transition-duration: 4s;
     -webkit-transition-property: text-shadow;
     -webkit-transition-duration: 4s;
-    text-shadow: none;
+     text-shadow: none;
   }
-  body.blurry {
-    -moz-transition-property: text-shadow;
-    -moz-transition-duration: 4s;
-    -webkit-transition-property: text-shadow;
-    -webkit-transition-duration: 4s;
-    text-shadow: #fff 0px 0px 25px;
+  
+  title {
+     color: #FFFACD;
   }
+
   a {
     color: #FFFACD;
   }
-  .textColumn, .linksColumn {
-    padding: 2em;
-  }
-  .textColumn {
-    position: absolute;
-    top: 100px;
-    right: 0px;
-    bottom: 0px;
-    left: 10px;
 
-    text-align: center;
-    padding-top: 11em;
-    background-color: #A52A2A;
-  }
-  .textColumn p {
-    width: 25%;
-    float:center;
-  }
-  .linksColumn {
-    position: absolute;
-    top:300px;
-    right: 0px;
-    bottom: 0px;
-    left: 10px;
-
-    background-color: #A52A2A;
-  }
-
-  h1 {
-    font-size: 500%;
-    font-weight: normal;
-    margin-bottom: 0em;
-  }
-  h2 {
-    font-size: 200%;
-    font-weight: normal;
-    margin-bottom: 0em;
-  }
-  ul {
-    padding-left: 1em;
-    margin: 0px;
-  }
-  li {
-    margin: 1em 0em;
-  }
   </style>
+
 </head>
 <body id="sample">
-  <div class="textColumn">
+  <div class="title">
     <h1>Welcome to HelpDesk Tips n Tricks</h1>
-    <p>This is my first Python Application deployed via AWS Elastic Beanstalk supporting continuous integration/deployment (CI/CD) with Jenkins</p>
-    <!-- <p>My first AWS Elastic Beanstalk Python Application is now running in his own dedicated environment in the AWS Cloud leveraging CI/CD</p> -->
+    <p>This Python Application has been deployed via AWS Elastic Beanstalk. Any code changes are built and deployed automatically via CI/CD process using Jenkins behind Nginx.</p>
   </div>
   
   <div class="linksColumn"> 
     <h2>About Me</h2>
-    <ul>
-    <li><a href="https://vishaalpal.github.io/">Check out my GitHub profile</a><li>
-    <!-- 
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/index.html?concepts.html">AWS Elastic Beanstalk concepts</a></li>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_django.html">Deploy a Django Application to AWS Elastic Beanstalk</a></li>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_flask.html">Deploy a Flask Application to AWS Elastic Beanstalk</a></li>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_custom_container.html">Customizing and Configuring a Python Container</a></li>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/using-features.loggingS3.title.html">Working with Logs</a></li>
-    -->
-    </ul>
+    <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQhKNVHb7GwZEa7wjVqdSJMqtWiRWW2mw_8xKWT2mpZEJqksng">Here is a picture of Chriz</a>
+    <li><a href="https://c402277.ssl.cf1.rackcdn.com/photos/18330/images/hero_small/Mountain_Gorilla_Silverback_WW22557.jpg?1576515753">Here is a picture of Shane</a>
+    <li><a href="https://edge.alluremedia.com.au/m/l/2017/10/Qantas.png">Here is a picture of Brandon</a>
+    <li><a href="https://www.abc.net.au/news/image/11791604-1x1-940x940.jpg">Here is a picture of Lex</a>
+    <li><a href="https://vishaalpal.github.io/">Check out my GitHub profile here</a>
+    </li>
   </div>
 </body>
 </html>
