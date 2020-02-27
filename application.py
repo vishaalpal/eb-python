@@ -39,8 +39,8 @@ welcome = """
   <title>Welcome</title>
   <style>
   body {
-    color: #ffffff;
-    background-color: #E0E0E0;
+    color: #FFFF00;
+    background-color: #D2691E;
     font-family: Arial, sans-serif;
     font-size:14px;
     -moz-transition-property: text-shadow;
@@ -57,7 +57,7 @@ welcome = """
     text-shadow: #fff 0px 0px 25px;
   }
   a {
-    color: #0188cc;
+    color: #FFFF00;
   }
   .textColumn, .linksColumn {
     padding: 2em;
@@ -71,7 +71,7 @@ welcome = """
 
     text-align: right;
     padding-top: 11em;
-    background-color: #1BA86D;
+    background-color: #D2691E;
     background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
     background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386));
   }
@@ -86,7 +86,7 @@ welcome = """
     bottom: 0px;
     left: 50%;
 
-    background-color: #E0E0E0;
+    background-color: #D2691E;
   }
 
   h1 {
