@@ -36,11 +36,11 @@ welcome = """
     or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
   -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Welcome</title>
+  <title>HelpDesk Tips n Tricks</title>
   <style>
   body {
-    color: #FFFFFF;
-    background-color: #D2691E;
+    color: #FFFACD;
+    background-color: #800000;
     font-family: Arial, sans-serif;
     font-size:14px;
     -moz-transition-property: text-shadow;
@@ -57,7 +57,7 @@ welcome = """
     text-shadow: #fff 0px 0px 25px;
   }
   a {
-    color: #FFFF00;
+    color: #FFFACD;
   }
   .textColumn, .linksColumn {
     padding: 2em;
@@ -71,9 +71,9 @@ welcome = """
 
     text-align: right;
     padding-top: 11em;
-    background-color: #D2691E;
-    background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
-    background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386));
+    background-color: #800000;
+    <!-- background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
+    background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386)); -->
   }
   .textColumn p {
     width: 75%;
@@ -86,7 +86,7 @@ welcome = """
     bottom: 0px;
     left: 50%;
 
-    background-color: #D2691E;
+    background-color: #800000;
   }
 
   h1 {
@@ -110,20 +110,21 @@ welcome = """
 </head>
 <body id="sample">
   <div class="textColumn">
-    <h1>Congratulations - Vishaal</h1>
-    <p>Your first AWS Elastic Beanstalk Python Application is now running on your own dedicated environment in the AWS Cloud</p>
+    <h1>Welcome to HelpDesk Tips n Tricks</h1>
+    <p>Vishaal's first AWS Elastic Beanstalk Python Application is now running in his own dedicated environment in the AWS Cloud leveraging CI/CD</p>
   </div>
   
   <div class="linksColumn"> 
-    <h2>What's Next?</h2>
+    <h2>About Me</h2>
     <ul>
-    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
+    <li><a href ="https://vishaalpal.github.io/"</a><li>
+    <!-- <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/index.html?concepts.html">AWS Elastic Beanstalk concepts</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_django.html">Deploy a Django Application to AWS Elastic Beanstalk</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_flask.html">Deploy a Flask Application to AWS Elastic Beanstalk</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_custom_container.html">Customizing and Configuring a Python Container</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/using-features.loggingS3.title.html">Working with Logs</a></li>
-
+    -->
     </ul>
   </div>
 </body>
