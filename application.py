@@ -72,8 +72,10 @@ welcome = """
     text-align: right;
     padding-top: 11em;
     background-color: #800000;
-    <!-- background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
-    background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386)); -->
+    <!-- 
+    background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
+    background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386)); 
+    -->
   }
   .textColumn p {
     width: 75%;
@@ -117,8 +119,9 @@ welcome = """
   <div class="linksColumn"> 
     <h2>About Me</h2>
     <ul>
-    <li><a href ="https://vishaalpal.github.io/"</a><li>
-    <!-- <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
+    <li><a href="https://vishaalpal.github.io/">Check out my GitHub profile</a><li>
+    <!-- 
+    <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/">AWS Elastic Beanstalk overview</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/index.html?concepts.html">AWS Elastic Beanstalk concepts</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_django.html">Deploy a Django Application to AWS Elastic Beanstalk</a></li>
     <li><a href="http://docs.amazonwebservices.com/elasticbeanstalk/latest/dg/create_deploy_Python_flask.html">Deploy a Flask Application to AWS Elastic Beanstalk</a></li>
