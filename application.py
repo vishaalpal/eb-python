@@ -40,9 +40,9 @@ welcome = """
   <style>
   body {
     color: #FFFACD;
-    background-color: #800000;
-    font-family: Arial, sans-serif;
-    font-size:14px;
+    background-color: #A52A2A;
+    font-family: Calibri;
+    font-size:10px;
     -moz-transition-property: text-shadow;
     -moz-transition-duration: 4s;
     -webkit-transition-property: text-shadow;
@@ -64,31 +64,27 @@ welcome = """
   }
   .textColumn {
     position: absolute;
-    top: 0px;
-    right: 50%;
+    top: 100px;
+    right: 0px;
     bottom: 0px;
-    left: 0px;
+    left: 10px;
 
-    text-align: right;
+    text-align: center;
     padding-top: 11em;
-    background-color: #800000;
-    <!-- 
-    background-image: -moz-radial-gradient(left top, circle, #6AF9BD 0%, #00B386 60%);
-    background-image: -webkit-gradient(radial, 0 0, 1, 0 0, 500, from(#6AF9BD), to(#00B386)); 
-    -->
+    background-color: #A52A2A;
   }
   .textColumn p {
-    width: 75%;
-    float:right;
+    width: 25%;
+    float:center;
   }
   .linksColumn {
     position: absolute;
-    top:0px;
+    top:300px;
     right: 0px;
     bottom: 0px;
-    left: 50%;
+    left: 10px;
 
-    background-color: #800000;
+    background-color: #A52A2A;
   }
 
   h1 {
@@ -113,7 +109,8 @@ welcome = """
 <body id="sample">
   <div class="textColumn">
     <h1>Welcome to HelpDesk Tips n Tricks</h1>
-    <p>Vishaal's first AWS Elastic Beanstalk Python Application is now running in his own dedicated environment in the AWS Cloud leveraging CI/CD</p>
+    <p>This is my first Python Application deployed via AWS Elastic Beanstalk supporting continuous integration/deployment (CI/CD) with Jenkins</p>
+    <!-- <p>My first AWS Elastic Beanstalk Python Application is now running in his own dedicated environment in the AWS Cloud leveraging CI/CD</p> -->
   </div>
   
   <div class="linksColumn"> 
